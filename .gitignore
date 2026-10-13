@@ -1,0 +1,29 @@
+# External inference engine
+llama.cpp/
+
+# Model weights
+*.gguf
+*.safetensors
+*.bin
+
+# Build artifacts
+build/
+*.o
+*.so
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python / Node
+__pycache__/
+.venv/
+node_modules/
+
+# Local configurations
+.pi/
+
+# System files
+.DS_Store
